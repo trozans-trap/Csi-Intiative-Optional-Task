@@ -1,65 +1,77 @@
 <html>
 
 <head>
-    <title>ToDo List</title>
+    <title>QR Code</title>
+    <link rel="icon" href="https://i.ibb.co/fS0CGZC/dhNY.png">
     <!-- bootstraplinks -->
     <style>
         .logo{
     height: 25%;
-    margin-left: 1.8%;
+    margin-left: 1.2%;
     margin-top: -12%;
 }
 
 .orrange{
     height: 25%;
-    margin-left: 51.61%;
+    margin-left: 51.62%;
     margin-top: 0;
     top: 0;
-    background: url("https://media-exp1.licdn.com/dms/image/C4D0BAQEzw3wiyoD1bw/company-logo_200_200/0?e=2159024400&v=beta&t=ZsL8r1c6vcJt8FsnVvkz4rJZkvtTMyj4BzbNHsP6Ha0");
-    border: 2px solid black;
-    padding: 150px 150px;
 }
 
 .green{
     height: 25%;
-    margin-top: -1%;
-   ;
+    margin-top: -3.31%;
+    top:auto;
+    margin-left:0% ;
+    bottom: 0;
 }
 
 .text{
     margin: 7% 10% 10% 33% ;
 }
     </style>
+    
+    <link rel="stylesheet" href="/public/style.css" type="text/css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
 
 <body>
-   
+    <div class="container-fluid">
+    <img src="https://i.ibb.co/Ph7Cn4N/orranget.png" alt="orranget"class=" img-fluid float-right"  border="0" style="margin-right: -1%;">
     
+    <img src="https://i.ibb.co/M2xD1L8/ini.png" class=" img-fluid " style="height: 19%; text-align: left;" alt="ini" border="0" >
+         <br>
     
-    
-    <div class="orrange">
-
-    </div>
-
-    <!-- <img src="../Abc.png" alt="" class="orrange" /> -->
-    <img src="../ini.png" alt="" class="logo">
-    
-    
-         <div class="text">
-            <h1 class="display" style="margin-left: 13.5%;">Scan More TO</h1>
-            <h1 class="display">Complete Word INITIATIVE</h1>
-            <h1 class="dislay" style="margin-left: 17%;">
+         <br>
+         <div class="text-center">
+             <br>
+             <br>
+             <br>
+            <h1 class="display" ">
+                <p>Scan More TO</p>
+                <p>Complete Word</p>
+                <p>INITIATIVE</p>
+                
+            <span>
+              <div class="alert alert-primary" role="alert" style="width: 25%;margin-left: 37.5%;">
                 <% for(var i =0 ; i < arr2.length; i++){ %>
                     <%= arr2[i] %>
                 <% }  %>
+              </div>
+            </span>
+
             </h1>
+            <br>
+            <br>
+            <br>
+
          </div>
 
-         <img src="green.png alt="" class="green">        
 
+         <img src="https://i.ibb.co/frf7W21/Abc.png" class=" img-fluid float-left" alt="Abc" border="0" style="margin-left:-1%;">
 
+    </div>
     <!-- bootstraplinks -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"

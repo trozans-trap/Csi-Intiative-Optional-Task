@@ -65,7 +65,7 @@ module.exports = (app)=>{
               arr2=user.arr2;
               console.log(arr2);
               console.log(user);
-              user.update( { $set: {arr2: arr2}}).then(()=>{
+              user.updateOne( { $set: {arr2: arr2}}).then(()=>{
                   console.log(user);
               }).catch(next);
               var t=0;
@@ -106,5 +106,11 @@ module.exports = (app)=>{
         
 
     });
+
+   // app.post('/todos/:id/:index',(req,res)=>{
+   //    var id = req.params.id;
+   //    var arr2 =[0,0,0,0,0];
+   //    res.render('success', {todos: id , arr2: arr2});
+   // });
 
 }

@@ -4,12 +4,12 @@ const Schema = mongoose.Schema;
 const ItemSchema = new Schema({
     teamname:{
         type:String,
-        unique: true
+        unique: true,
         
     },
     email:{
         type:String,
-        unique: true
+        unique: true,
        
     },
     arr2:{
